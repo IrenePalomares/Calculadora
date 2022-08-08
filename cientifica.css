@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra&family=Armata&family=Cinzel&family=MonteCarlo&family=Yuji+Boku&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+}
+h1{
+    font-family:  'Cinzel', serif;
+    font-size: 30px;
+    color: #0C75F5;
+}
+a button{
+    border-style: solid;
+    border-color: #add8e6;
+    background-color:  #0C75F5;
+    color: ivory;
+    width: 100px;
+}
+a button:hover{
+    border-style: solid;
+    border-color: ivory;
+    background-color:  #add8e6;
+    color:  #0C75F5;
+    width: 100px;
+}
+#cabeza{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    width: 528px;
+    align-items: center;
+}
+#contenedor{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 528px;
+    height: 605px;
+    row-gap: 3px;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#input input{
+    background-color: white;
+    width: 517px;
+    height: 150px;
+    font-size:50px;
+    text-align: right;
+    padding-right: 5px;
+}
+#m {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100px;
+    height: 35px;
+    justify-content: space-between;
+    column-gap: 3px;
+}
+.h button{
+    width: 85px;
+    height: 35px;
+    background-color: #4C8EF5;
+    color: white;
+    border-color: ivory;
+}
+.d button{
+    width: 85px;
+    height: 35px;
+    background-color: #add8e6;
+}
+.numeros{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    row-gap: 3px;
+    column-gap: 3px;
+}
+.numeros div button{
+    width: 71.9px;
+    height: 50px;
+}
+.o button{
+    width: 71.9px;
+    height: 50px;
+}
+.n button{
+    background-color: #eeeeee;
+    border-color: ivory;
+    border-radius: 1px;
+    font-weight: bold;
+}
+button:hover{
+    background-color:   #add8e6;
+    border-color: darkgrey;
+    border-radius: 1px;
+}
+.o button{
+    background-color: #C5F0F5;
+    border-color: ivory;
+}
+.igual button{
+   background-color: #4C8EF5; 
+   color: white;
+   font-weight: bold;
+   border-color: ivory;
+}
+.igual button:hover{
+    background-color: #0C75F5; 
+    color: white;
+ }
+.o button:hover{
+    background-color:   #add8e6;
+    border-color: darkgrey;
+    border-radius: 1px;
+}
+.h button:hover{
+    background-color: #0C75F5; 
+    color: white;
+ }
+.d button{
+    background-color:  #E1FFF5;
+}
+select{
+    color: black;
+}
